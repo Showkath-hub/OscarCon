@@ -22,6 +22,7 @@ export default function Login({ onLogin }) {
       navigate('/dashboard');
     } else {
       alert('Invalid phone or PIN');
+      console.log(error);
     }
   };
 
